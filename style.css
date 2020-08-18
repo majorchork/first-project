@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+}
+.content {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    background: #F0FEF6;
+    width: 300px;
+}
+.logo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    color: #039240;
+    padding: 5px 25px;
+    padding-right: 80px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+li i {
+    margin-right: 5px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+ul li.active {
+    border-right: 3px solid #039240;
+    background: #E0F4E8;
+}
+.main {
+    width: 100%;
+    padding: 25px;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.dot {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.top select {
+    border: none;
+    padding-right: 5px;
+}
+.welcome {
+    color: #848584;
+    margin-bottom: 40px;
+}
+.welcome span {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title {
+    background: #039240;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+form {
+    border: 1.5px solid #039240;
+    border-top: none;
+    padding: 20px;
+}
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inputs > div {
+    display: flex;
+}
+
+.inputs > div > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs > div > div:nth-child(1) {
+    margin-right: 30px;
+}
+.inputs label {
+    margin-bottom: 3px;
+}
+.dates {
+    margin-top: 25px;
+}
+
+.inputs input, .inputs select {
+    padding: 8px;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+    background: green;
+    border: none;
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: 600;
+}

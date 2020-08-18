@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="content">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul>
+                <li class="active"> <i class="fas fa-home"></i> Home</li>
+                <li> <i class="fas fa-list"></i> Tasks</li>
+                <li> <i class="fas fa-search"></i> Adjudication</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top">
+                <!-- Image -->
+                <div class="dot"></div>
+    
+                <!-- Account drop down -->
+                <select name="" id="">
+                    <option value="Account">Account</option>
+                </select>
+            </div>
+            <p class="welcome">welcome <span>Teni Ogunsakin</span></p>
+    
+            <p class="title">Search for record (s)</p>
+            <form action="">
+                <div class="checkboxes">
+                    <div>
+                        <input name="dateRange" type="checkbox">
+                        <label for="dateRange">Date Range</label>
+                    </div>
+    
+                    <div>
+                        <input name="numberRange" type="checkbox">
+                        <label for="numberRange">Number Range</label>
+                    </div>
+    
+                    <div>
+                        <input name="alphabetRange" type="checkbox">
+                        <label for="alphabetRange">Alphabet Range</label>
+                    </div>
+                </div>
+    
+                <div class="inputs">
+                    <div class="dropdowns">
+                        <div>
+                            <label for="column"> Column </label>
+                            <select name="column" id="">
+                            <option value="" disabled selected> select affected column </option>
+                            <option value="">column 1</option>
+                            <option value="">column 2</option>
+                            <option value="">column 3</option>
+                            </select>
+                        </div>
+        
+                        <div>
+                            <label for="column">Rule *</label>
+                            <select name="column" id="">
+                            <option value="" disabled selected> select affected column </option>
+                            <option value="">column 1</option>
+                            <option value="">column 2</option>
+                            <option value="">column 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="dates">
+                        <div>
+                            <label for="start"> Start Date </label>
+                            <input type="date" name="" id="">
+                        </div>
+    
+                        <div>
+                            <label for="end"> End Date </label>
+                            <input type="date" name="" id="">
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <input class="btn" type="submit" value="Search for record">
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
